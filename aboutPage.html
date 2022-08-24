@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .topnav {
+            position: relative;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        /* .topnav a.active {
+             background-color: #04AA6D;
+             color: white;
+         }*/
+        /*.project{
+            background-color: #04AA6D;
+            color: white;
+        }*/
+        .about{
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        /* Centered section inside the top navigation */
+        .topnav-centered a {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Right-aligned section inside the top navigation */
+        .topnav-right {
+            float: right;
+        }
+
+        /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+        @media screen and (max-width: 600px) {
+            .topnav a, .topnav-right {
+                float: none;
+                display: block;
+            }
+
+            .topnav-centered a {
+                position: relative;
+                top: 0;
+                left: 0;
+                transform: none;
+            }
+        }
+        img{
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .tempLink a:hover {
+            background-color: lightskyblue;
+            color: black;
+        }
+        h1{
+            color: black;
+            font-family: Papyrus, sans-serif;
+            text-align: center;
+            font-size: 80px;
+        }
+        h2{
+            color: black;
+            font-family: Papyrus, sans-serif;
+            font-size: 40px;
+        }
+        li{
+            font-family: Papyrus,sans-serif;
+            color: black;
+        }
+        .container{
+            display: flex;
+            /*border: 1px #ccc solid;*/
+            padding: 10px;
+            margin: 10px;
+
+        }
+        .container div{
+            border: 1px #ccc solid;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+
+        }
+        .pic1{
+            display: flex;
+            flex: 1;
+
+
+
+
+        }
+        .pic2{
+            display: flex;
+            flex: 1;
+
+
+        }
+        .pic3{
+            display: flex;
+            flex: 1;
+
+
+        }
+        .containerLists{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<div class="topnav">
+
+    <!-- Centered link -->
+    <div class="topnav-centered">
+        <a href="index.html" class="active" >Home</a>
+    </div>
+
+    <!-- Left-aligned links (default) -->
+    <a href="projectsPage.html" class = "project">Projects</a>
+    <!--  <a href="#contact">Contact</a>-->
+
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+        <!--    <a href="#search">Search</a>-->
+        <a href="aboutPage.html" class="about">About</a>
+    </div>
+
+</div>
+<div>
+    <h1>
+        Brett Sullivan, Aspiring Software Engineer
+    </h1>
+</div>
+<div class = "container">
+<span class = "pic1">
+    <img src = "Brett&HuiChina.jpg" alt="Anonymous" width="400" height="400" >
+</span>
+    <span class = "pic2">
+    <img src = "LokiOnBed.jpg" alt="Anonymous" width="400" height="400" >
+</span>
+    </span>
+    <span class = "pic3">
+    <img src = "sillyChloe.jpg" alt="Anonymous" width="400" height="400" >
+</span>
+</div>
+<div class="containerLists">
+    <div class="containerList1">
+    <h2>
+        Education:
+    </h2>
+    <ul>
+        <li>Finishing Second year of AST Computer Science Degree from Cañada College</li>
+        <li>Current Honors Student with 3.86 GPA, active member of Phi Theta Kappa Honor Society</li>
+        <li>Transferring for last 2 years of Bachelors Degree end of 2023</li>
+        <li>Earning Certificate in Computer Science for Java, finishing in Spring of 2023</li>
+        <li>Earning Certificate in Web & App Development, finishing in Fall of 2023</li>
+    </ul>
+</div>
+    <div class="containerList2">
+        <h2>
+            Interests:
+        </h2>
+        <ul>
+            <li>Traveling, recent places are Maui, Shanghai and Beijing</li>
+            <li>Learning! I love being challenged and gaining knowledge and skills in different fields</li>
+            <li>Spending time with my two kitties pictured above, Loki & Chloe</li>
+            <li>Music. I have always felt a strong connection to music, it feeds my soul</li>
+            <li>Working out, whether it's going to the gym after work or taking a hike in the San Mateo Hills</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

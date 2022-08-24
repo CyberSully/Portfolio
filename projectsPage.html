@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <style>
+       a{
+           color: mediumpurple;
+       }
+       h1{
+           color: black;
+           font-family: Papyrus, sans-serif;
+           text-align: center;
+           font-size: 80px;
+       }
+       .project1{
+           color: black;
+           font-family: Papyrus, sans-serif;
+           text-align: center;
+           font-size: 40px;
+         /*  display: inline-block;
+           border: 1px solid black;
+           border-radius: 1px 1px 1px 1px;
+           width: 400px;
+           margin: 4px;*/
+       }
+       h2{
+           font-size: 35px;
+       }
+       h3{
+           font-size: 20px;
+       }
+       body{
+           background-color: lightgray;
+       }
+       #codeImg{
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 50%;
+           border-radius: 8px;
+           box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       }
+       #aboutMeLink{
+           font-family: ninja, sans-serif;
+           font-size: 25px;
+           color: darkslateblue;
+           text-align: center;
+       }
+       #projectsLink{
+           font-family: ninja, sans-serif;
+           font-size: 25px;
+           color: darkslateblue;
+           text-align: center;
+       }
+       .topnav {
+           position: relative;
+           background-color: #333;
+           overflow: hidden;
+       }
+
+       /* Style the links inside the navigation bar */
+       .topnav a {
+           float: left;
+           color: #f2f2f2;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+           font-size: 17px;
+       }
+
+       /* Change the color of links on hover */
+       .topnav a:hover {
+           background-color: #ddd;
+           color: black;
+       }
+
+       /* Add a color to the active/current link */
+      /* .topnav a.active {
+           background-color: #04AA6D;
+           color: white;
+       }*/
+       .project{
+           background-color: #04AA6D;
+           color: white;
+       }
+
+       /* Centered section inside the top navigation */
+       .topnav-centered a {
+           float: none;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+       }
+
+       /* Right-aligned section inside the top navigation */
+       .topnav-right {
+           float: right;
+       }
+
+       /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+       @media screen and (max-width: 600px) {
+           .topnav a, .topnav-right {
+               float: none;
+               display: block;
+           }
+
+           .topnav-centered a {
+               position: relative;
+               top: 0;
+               left: 0;
+               transform: none;
+           }
+       }
+       .tempLink{
+           font-size: 25px;
+           margin: auto auto;
+           width: 50%;
+           color: black;
+           font-family: Papyrus, sans-serif;
+
+       }
+       .tempLink a:hover {
+           background-color: lightskyblue;
+           color: black;
+       }
+       .container1{
+           display: flex;
+       }
+       /* Last changes made were commenting out margin: auto in "templink" class and adding last 5 lines of code to class "project1/
+   </style>
+</head>
+<body>
+<div class="topnav">
+
+    <!-- Centered link -->
+    <div class="topnav-centered">
+        <a href="index.html" class="active" >Home</a>
+    </div>
+
+    <!-- Left-aligned links (default) -->
+    <a href="projectsPage.html" class = "project">Projects</a>
+    <!--  <a href="#contact">Contact</a>-->
+
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+        <!--    <a href="#search">Search</a>-->
+        <a href="aboutPage.html">About</a>
+    </div>
+
+</div>
+<h1>Projects</h1>
+<span>
+    <img src = "codingComps.jpg" alt="Anonymous" height="400" width="200" id="codeImg">
+</span>
+
+<span class = "project1">
+    <h2>Temp Convertor</h2>
+    <h3>Interactive temperature convertor program using JavaScript, HTML & CSS</h3>
+</span>
+<div class="tempLink">
+<a href="JSTempConverter.html" target="_blank">Open Temp Conversion Program</a>
+</div>
+<span class="project1">
+    <h2>Memory Matching Game</h2>
+    <h3>Text-based game using object-oriented programming in C++</h3>
+</span>
+<div class = "tempLink">
+    <a href="https://github.com/CyberSully/Memory-Matching-Game" target="_blank">Open Brett's GitHub Memory Matching Game</a>
+</div>
+
+<span class="project1">
+    <h2>Pick your starting lineup for the Draft!</h2>
+    <h3>NFL Starting lineup created via HTML</h3>
+</span>
+<div class="tempLink">
+    <a href="StartingLineUp.html" target="_blank">Open Starting Lineup Page</a>
+</div>
+<span class="project1">
+    <h2>Auto Purchase Agreement</h2>
+    <h3>Comparison of Loan offers structured and styled with HTML & CSS</h3>
+</span>
+<div class="tempLink">
+    <a href="AutoPurchaseCSS.html" target="_blank">Open Loan Agreement display</a>
+</div>
+<span class="project1">
+    <h2>Happy Birthday Message Creator</h2>
+    <h3>Fill out and send a birthday message via HTML</h3>
+</span>
+<div class="tempLink">
+    <a href="BirthdayMessage.html" target="_blank">Open Birthday Message Creator</a>
+</div>
+<span class="project1">
+    <h2>Family Vacation Photo Gallery</h2>
+    <h3>Photo gallery created via HTML</h3>
+</span>
+<div class="tempLink">
+    <a href="RedRocksWebPage.html" target="_blank">Open Photo Gallery</a>
+</div>
+</body>
+</html>
